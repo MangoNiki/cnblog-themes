@@ -1,0 +1,271 @@
+#blogTitle {
+    display: none;
+}
+
+#navList li:nth-child(1),
+#navList li:nth-child(4),
+#navList li:nth-child(5) {
+    display: none;
+}
+
+.catListTitle {
+    background: black;
+}
+
+#profile_block a {
+    display: inline-block;
+}
+
+body {
+    background: #f1f1ef;
+}
+
+#profile_block>a:first-child {
+    font-size: 24px;
+    color: #F60;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.newsItem,
+#blog-calendar {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+#p_b_follow a {
+    margin: 20px auto 10px;
+    font-size: 14px;
+    display: block;
+    width: 99%;
+    text-align: center;
+    background: rgb(255, 102, 0) none repeat scroll 0% 0%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 102, 0);
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#p_b_follow a:hover {
+    color: #333;
+}
+
+#profile_block a:nth-child(1):hover {
+    text-decoration: none;
+}
+
+#blog-sidecolumn {
+    background: #f1f1ef;
+}
+
+.catListEssay,
+.catListLink,
+.catListNoteBook,
+.catListTag,
+.catListPostCategory,
+.catListPostArchive,
+.catListImageCategory,
+.catListArticleArchive,
+.catListView,
+.catListFeedback,
+.mySearch,
+.catListComment,
+.catListBlogRank,
+.catList,
+.catListArticleCategory,
+.catListTitle {
+    border-radius: 0;
+}
+
+.div_my_zzk {
+    position: relative;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 10px 70px 10px 10px;
+}
+
+.div_my_zzk .input_my_zzk {
+    position: absolute;
+    outline: none;
+    border: none;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.div_my_zzk .btn_my_zzk {
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+}
+
+.catListEssay ul li,
+.catListLink ul li,
+.catListNoteBook ul li,
+.catListTag ul li,
+.catListPostCategory ul li,
+.catListPostArchive ul li,
+.catListImageCategory ul li,
+.catListArticleArchive ul li,
+.catListView ul li,
+.catListFeedback ul li,
+.catListComment ul li,
+.catListBlogRank ul li,
+.catList ul li,
+.catListArticleCategory ul li {
+    padding: 8px 5px 8px 0;
+}
+
+.catListEssay a {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.catListTag,
+.catListPostArchive,
+.catListPostCategory {
+    padding: 10px 0;
+}
+
+.catListTag ul li,
+.catListPostArchive ul li,
+.catListPostCategory ul li {
+    padding: 0;
+    text-indent: 0em;
+    overflow: hidden;
+    border: none;
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    -webkit-transform-orign: center center;
+    -moz-transform-orign: center center;
+    transform-orign: center center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.catListTag ul li a,
+.catListPostArchive ul li a,
+.catListPostCategory ul li a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transform-orign: center center;
+    -moz-transform-orign: center center;
+    transform-orign: center center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.catListTag ul li:hover,
+.catListPostCategory ul li:hover {
+    color: #F60;
+    -webkit-transform-orign: center center;
+    -moz-transform-orign: center center;
+    transform-orign: center center;
+    -webkit-transform: translate(10px);
+    -moz-transform: translate(10px);
+    transform: translate(10px);
+}
+
+.catListPostArchive ul li:hover {
+    color: #F60;
+}
+
+.catListTag ul li:hover a,
+.catListPostArchive ul li:hover a,
+.catListPostCategory ul li:hover a {
+    text-decoration: underline;
+}
+
+.day {
+    position: relative;
+    padding: 50px 20px 0;
+    margin: 0 0 30px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.day:hover {
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-bottom: 2px solid #3c9dff;
+}
+
+.dayTitle {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    background: #fbfbfb;
+}
+
+.dayTitle a {
+    display: inline-block;
+    height: 100%;
+    color: #390;
+    padding-left: 10px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.dayTitle a:hover {
+	color:#F60;
+    text-decoration: none;
+}
+
+.day:nth-child(5n) .dayTitle a {
+    border-left: 4px solid #39c;
+}
+
+.day:nth-child(5n+1) .dayTitle a {
+    border-left: 4px solid #b9d329;
+}
+
+.day:nth-child(5n+2) .dayTitle a {
+    border-left: 4px solid #ffae5b;
+}
+
+.day:nth-child(5n+3) .dayTitle a {
+    border-left: 4px solid #c0ebf7;
+}
+
+.day:nth-child(5n+4) .dayTitle a {
+    border-left: 4px solid #fab4cc;
+}
+
+.postTitle a:link,
+.postTitle a:visited,
+.postTitle a:active {
+    color: #333;
+}
+
+.postTitle a:hover {
+    color: #39c;
+}
