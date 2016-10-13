@@ -127,7 +127,6 @@ body {
     overflow: hidden;
 }
 
-.catListTag,
 .catListPostArchive,
 .catListPostCategory {
     padding: 10px 0;
@@ -997,6 +996,11 @@ body {
 .hljs-type,
 .hljs-addition {
     color: #e6db5d !important;
+}
+
+.hljs-name,
+.hljs-tag {
+    color: #e6db5d!important; //黄色
 }
 
 .hljs-comment,
